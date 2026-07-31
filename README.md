@@ -77,3 +77,11 @@ In another terminal, execute the full grasping script:
 cd ~/elfin_robot/Yuhang_elfin_moveit_config/scripts
 python3 full-process_grasping1.py
 ```
+
+
+https://github.com/user-attachments/assets/b9ae8435-0f70-41de-8fa6-ae5e1aae4a33
+
+
+
+
+
