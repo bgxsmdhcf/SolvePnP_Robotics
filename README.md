@@ -34,6 +34,7 @@ Verify the accuracy of the estimated 3D pose:
 ```bash
 ./python.sh /home/nnd/RL_Training/HYH/SDG/official_verify.py
 ```
+<img width="917" height="757" alt="image" src="https://github.com/user-attachments/assets/6946420f-3036-41f0-9b2c-a25a18e6cc19" />
 
 ---
 
