@@ -1,0 +1,11 @@
+{
+    "ROS2.distro": "jazzy",
+    "python.autoComplete.extraPaths": [
+        "/home/nnd/WMJ/robot_ws/install/robot2_pkg/lib/python3.13/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/nnd/WMJ/robot_ws/install/robot2_pkg/lib/python3.13/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}

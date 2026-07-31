@@ -1,0 +1,46 @@
+# This config file is used by ros2_control
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+
+    elfin_arm_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+    elfin_gripper_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+elfin_arm_controller:
+  ros__parameters:
+    joints:
+      - elfin_joint1
+      - elfin_joint2
+      - elfin_joint3
+      - elfin_joint4
+      - elfin_joint5
+      - elfin_joint6
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+    allow_nonzero_velocity_at_trajectory_end: true
+elfin_gripper_controller:
+  ros__parameters:
+    joints:
+      - finger_joint
+      - left_inner_finger_joint
+      - left_inner_knuckle_joint
+      - right_inner_knuckle_joint
+      - right_outer_knuckle_joint
+      - right_inner_finger_joint
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+    allow_nonzero_velocity_at_trajectory_end: true
